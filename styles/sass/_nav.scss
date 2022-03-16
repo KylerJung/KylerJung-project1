@@ -1,0 +1,21 @@
+nav ul {
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+
+  li {
+    list-style: none;
+    align-items: center;
+
+    p {
+      font-family: $headingFont;
+      margin: 0;
+      padding: 0 25px 0 0;
+      font-size: 2rem;
+    }
+
+    a {
+      padding: 25px;
+    }
+  }
+}
