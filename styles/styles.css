@@ -362,3 +362,54 @@ h1 span {
 .whatIsPlanted h3 {
   margin: 25px 0;
 }
+
+.upcomingWorkshop,
+.uniquePlants {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.upcomingWorkshopImg {
+  position: relative;
+  right: 20%;
+  bottom: 50px;
+}
+.upcomingWorkshopImg img {
+  -webkit-box-shadow: 20px 20px 0 -5px #F8E71C;
+          box-shadow: 20px 20px 0 -5px #F8E71C;
+}
+
+.upcomingWorkshopText {
+  position: relative;
+  right: 20px;
+}
+.upcomingWorkshopText h6 {
+  margin: 75px 0 25px 0;
+}
+
+.uniquePlantsImg {
+  position: relative;
+  left: 20%;
+  top: 50px;
+}
+.uniquePlantsImg img {
+  -webkit-box-shadow: -20px 20px 0 -5px #F8E71C;
+          box-shadow: -20px 20px 0 -5px #F8E71C;
+}
+
+.uniquePlantsText {
+  text-align: right;
+  position: relative;
+  left: 40px;
+}
+
+.widget {
+  background-color: #F0EFED;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}

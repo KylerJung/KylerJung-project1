@@ -1,0 +1,41 @@
+
+.upcomingWorkshop,
+.uniquePlants {
+  display: flex;
+  justify-content: space-between;
+}
+
+.upcomingWorkshopImg {
+  position: relative;
+  right: 20%;
+  bottom: 50px;
+
+  img {
+    box-shadow: 20px 20px 0 -5px $secondary;
+  }
+}
+
+.upcomingWorkshopText {
+  position: relative;
+  right: 20px;
+  
+  h6 {
+    margin: 75px 0 25px 0;
+  }
+}
+
+.uniquePlantsImg {
+  position: relative;
+  left: 20%;
+  top: 50px;
+
+  img {
+    box-shadow: -20px 20px 0 -5px $secondary;
+  }
+}
+
+.uniquePlantsText {
+  text-align: right;
+  position: relative;
+  left: 40px;
+}
