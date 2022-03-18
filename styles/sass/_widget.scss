@@ -1,5 +1,41 @@
 .widget {
   background-color: $backgroundColor;
   display: flex;
-  
+  padding: 100px 0;
+
+  li {
+    list-style: none;
+
+    h6 {
+      margin: 75px 0 25px 0;
+    }
+
+    i {
+      position: relative;
+      top: 115px;
+      right: 75px;
+      height: 50px;
+      line-height: 50px;
+      width: 50px;
+      background-color: $secondary;
+      border-radius: 50%;
+      text-align: center;
+      color: $primaryText;
+      
+
+    }
+  }
+}
+
+
+
+
+.row1,
+.row2 {
+  display: flex;
+}
+
+.community,
+.getInTouch {
+  padding-left: 75px;
 }

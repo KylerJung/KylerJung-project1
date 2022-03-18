@@ -412,4 +412,35 @@ h1 span {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding: 100px 0;
+}
+.widget li {
+  list-style: none;
+}
+.widget li h6 {
+  margin: 75px 0 25px 0;
+}
+.widget li i {
+  position: relative;
+  top: 115px;
+  right: 75px;
+  height: 50px;
+  line-height: 50px;
+  width: 50px;
+  background-color: #F8E71C;
+  border-radius: 50%;
+  text-align: center;
+  color: #2c2c2c;
+}
+
+.row1,
+.row2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.community,
+.getInTouch {
+  padding-left: 75px;
 }
