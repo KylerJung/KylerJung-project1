@@ -1,0 +1,85 @@
+.contact {
+  background-image: url(../planted-final-assets/planted-final-assets/contact-header-1.jpg);
+  background-size: cover;
+
+  h2 {
+    color: $secondary;
+    margin: 25px 0;
+  }
+
+  .zIndexH1 {
+    position: absolute;
+    bottom: 0;
+  }
+}
+
+
+
+.contactArea {
+  background-color: $backgroundColor;
+
+  .wrapper {
+    display: flex;
+    padding: 200px 0;
+    justify-content: space-between;
+  }
+}
+
+.formContainer {
+  width: 50%;
+  position: absolute;
+  top: 70vh;
+  right: 10%;
+  max-width: 1100px;
+  background-color: $solidWhite;
+  box-shadow: -20px 20px 0 -5px $secondary;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+
+  button {
+    margin-top: 50px;
+  }
+}
+
+.formDiv {
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+
+  .name,
+  .email {
+    width: 48%;
+    border: none;
+    border-bottom: 2px solid $buttons;
+  }
+}
+
+textarea {
+  border: 2px solid $buttons;
+}
+
+textarea,
+.name,
+.email {
+  line-height: 50px;
+  padding-left: 25px;
+}
+
+.address {
+  i {
+    padding-right: 15px;
+    color: $buttons;
+    font-size: 1.2rem;
+  }
+
+  .emailAddress {
+    font-family: $headingFont;
+    font-weight: bold;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+  }
+}
