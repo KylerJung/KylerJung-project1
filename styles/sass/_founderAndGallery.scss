@@ -1,0 +1,55 @@
+.founder {
+  background-color: $backgroundColor;
+}
+
+.founder .wrapper {
+  padding: 100px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.founderText {
+  max-width: 60%;
+
+  h5 {
+    margin: 15px 0;
+  }
+}
+
+.founderImg {
+  img {
+    box-shadow: 20px 20px 0 -5px $secondary;
+  }
+}
+
+// middle img
+
+.imgSection {
+  background-color: $backgroundColor;
+
+  img {
+  width: 100vw;
+  }
+}
+
+
+// gallery area
+
+.gallery {
+  padding: 100px 0;
+}
+
+
+
+.galleryContainer ul {
+  display: flex;
+
+  li {
+    list-style: none;
+    justify-content: space-between;
+
+    img {
+      max-width: 95%;
+    }
+  }
+}
