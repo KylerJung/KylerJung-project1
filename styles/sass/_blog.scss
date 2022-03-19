@@ -110,6 +110,7 @@
   flex-direction: column;
   align-items: flex-end;
 
+
   .comments,
   .formContainer {
     width: 65%;
@@ -175,4 +176,9 @@
 .navBackground {
   background-color: black;
   
+}
+
+.sidebar {
+  position: sticky;
+  top: 0;
 }

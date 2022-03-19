@@ -764,3 +764,8 @@ textarea,
 .navBackground {
   background-color: black;
 }
+
+.sidebar {
+  position: sticky;
+  top: 0;
+}
