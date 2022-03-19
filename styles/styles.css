@@ -302,7 +302,7 @@ nav ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-top: 25px;
+  padding: 25px 0 15px 0;
 }
 nav ul li {
   list-style: none;
@@ -320,6 +320,7 @@ nav ul li p {
 nav ul li a {
   padding: 25px;
   color: #fff;
+  font-weight: bold;
 }
 nav ul li a:hover, nav ul li a:focus {
   color: #F8E71C;
@@ -533,7 +534,7 @@ footer p {
           justify-content: space-between;
 }
 
-.contactArea.formContainer {
+.contactArea .formContainer {
   width: 50%;
   position: absolute;
   top: 70vh;
@@ -595,4 +596,171 @@ textarea,
   font-weight: bold;
   font-size: 1.2rem;
   line-height: 1.6rem;
+}
+
+.blogPage {
+  background-image: url(../planted-final-assets/planted-final-assets/blog-header-1.jpg);
+  background-size: cover;
+}
+.blogPage h2 {
+  color: #F8E71C;
+  margin: 25px 0;
+}
+.blogPage .zIndexH1 {
+  position: absolute;
+  bottom: 100px;
+}
+
+.blogMain {
+  background-color: #F0EFED;
+}
+
+.blogImg .imgContainer {
+  max-width: 60%;
+  top: 60vh;
+}
+.blogImg .imgContainer img {
+  max-width: 100%;
+  -webkit-box-shadow: -18px 18px 0 -5px #F8E71C;
+          box-shadow: -18px 18px 0 -5px #F8E71C;
+}
+
+.flexWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1100px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.sidebarSection {
+  width: 35%;
+}
+.sidebarSection .sidebar {
+  background-color: #fff;
+  width: 77.5%;
+  margin-top: 150px;
+}
+.sidebarSection .sidebar .sidebarSpacing {
+  padding-left: 25px;
+}
+.sidebarSection .sidebar .sidebarTitle {
+  font-family: "Josefin Sans";
+  padding: 25px 0;
+  font-weight: bold;
+}
+.sidebarSection .sidebar p {
+  margin: 0;
+}
+.sidebarSection .sidebar ul {
+  margin-left: 25px;
+}
+.sidebarSection .sidebar .sidebarImg {
+  position: relative;
+  right: 80%;
+  bottom: 30px;
+}
+
+.sidebarText span {
+  color: #074115;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.sidebarList {
+  padding-bottom: 25px;
+}
+.sidebarList li {
+  color: #0e902d;
+}
+.sidebarList li span {
+  color: #2c2c2c;
+}
+
+.blogPost {
+  margin-top: 400px;
+}
+.blogPost h4 {
+  margin: 0;
+}
+
+.blogPostSection {
+  padding: 0 0 30px 50px;
+  border-left: 5px solid #F8E71C;
+  border-bottom: 5px solid #F8E71C;
+}
+
+.commentSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+.commentSection .comments,
+.commentSection .formContainer {
+  width: 65%;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.commentSection .formContainer {
+  margin-bottom: 100px;
+}
+.commentSection .contactForm {
+  padding: 0;
+}
+.commentSection .contactForm .name,
+.commentSection .contactForm .email,
+.commentSection .contactForm .message {
+  background-color: #F0EFED;
+}
+
+.comments {
+  padding-left: 50px;
+}
+.comments p {
+  margin-top: 0;
+}
+
+.comment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 50px;
+}
+.comment .commentImg {
+  margin: 5px 15px 0 0;
+}
+
+.date {
+  font-family: "Josefin Sans";
+  color: #074115;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.commentTitle h6 {
+  margin: 50px 0;
+}
+
+.author {
+  color: #074115;
+  font-style: italic;
+  margin: 0 0 50px 0;
+}
+.author span {
+  font-weight: bold;
+}
+
+.navBackground {
+  background-color: black;
 }

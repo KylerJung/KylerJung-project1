@@ -14,83 +14,102 @@
 </head>
 
 <body>
-  <header>
+  <header class="blogPage" id="blogPage">
+    <div class="navBackground">
+      <div class="wrapper">
+        <!-- nav area + H1-->
+        <nav>
+          <ul>
+            <li>
+              <p>Planted</p>
+            </li>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#blog">BLOG</a></li>
+            <li><a
+                href="file:///c:/Users/KylerJung/Desktop/web-dev/2022-cohort40-wd-bootcamp/project-1-planted/project-1-planted/html/contact.html#contact">CONTACT</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
     <div class="wrapper">
-      <!-- nav area + H1-->
-      <nav>
-        <ul>
-          <li>
-            <p>Planted</p>
-          </li>
-          <li><a href="#home">HOME</a></li>
-          <li><a href="#about">ABOUT</a></li>
-          <li><a href="#blog">BLOG</a></li>
-          <li><a
-              href="file:///c:/Users/KylerJung/Desktop/web-dev/2022-cohort40-wd-bootcamp/project-1-planted/project-1-planted/html/contact.html#contact">CONTACT</a>
-          </li>
-        </ul>
-      </nav>
       <div class="zIndexH1">
-        <h1>Blog</h1>
+        <h2>Blog</h2>
       </div>
     </div> <!-- end of wrapper -->
-    <div class="imgContainer">
-      <img src="../planted-final-assets/planted-final-assets/post-image.jpg" alt="picture of zoomed in foliage">
+    <div class="blogImg">
+      <div class="imgContainer">
+        <img src="../planted-final-assets/planted-final-assets/post-image.jpg" alt="picture of zoomed in foliage">
+      </div>
     </div>
   </header>
 
-  <main>
-    <section class="sidebarSection">
-      <div class="sidebar">
-        <img src="../planted-final-assets/planted-final-assets/side-bar-image.jpg" alt="photo of window in old european-style house">
-        <div class="wrapper">
-          <p class="">About Planted</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, assumenda?. <span>Find out more.</span></p>
-          <p>Recent Posts</p>
-          <ul>
-            <li>
-              <p>Lorem ipsum dolor sit.</p>
-            </li>
-            <li>
-              <p>Lorem ipsum dolor sit.</p>
-            </li>
-            <li>
-              <p>Lorem ipsum dolor sit.</p>
-            </li>
-            <li>
-              <p>Lorem ipsum dolor sit.</p>
-            </li>
-          </ul>
+  <main class="blogMain">
+    <div class="flexWrapper">
+      <section class="sidebarSection">
+        <div class="sidebar">
+          <div class="sidebarImg">
+            <img src="../planted-final-assets/planted-final-assets/side-bar-image.jpg" alt="photo of window in old european-style house">
+          </div>
+          <div class="sidebarSpacing">
+            <p class="sidebarTitle">About Planted</p>
+            <p class="sidebarText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat. <span>Find out more.</span></p>
+            <p class="sidebarTitle">Recent Posts</p>
+            <ul class="sidebarList">
+              <li>
+                <p><span>ipsum dolor sit.</span></p>
+              </li>
+              <li>
+                <p><span>ipsum dolor sit.</span></p>
+              </li>
+              <li>
+                <p><span>ipsum dolor sit.</span></p>
+              </li>
+              <li>
+                <p><span>ipsum dolor sit.</span></p>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="blogPostSection">
-      <div class="wrapper">
+      <section class="blogPostSection">
         <div class="blogPost">
           <h4>Our mission at Planted</h4>
-          <p>Monday January 21st, 2019 by <span>Yousra</span></p>
+          <p class="author">Monday January 21st, 2019 by <span>Yousra</span></p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dicta fugiat exercitationem delectus nostrum sint facere corporis sapiente reprehenderit, illum corrupti doloribus ipsa velit nemo enim temporibus sunt consequuntur animi!</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae reprehenderit, minima accusamus similique inventore laboriosam alias id itaque, magni nesciunt possimus consectetur accusantium. Ipsam ipsa nisi ad quia soluta? Ratione amet repudiandae adipisci maiores cumque dolore ipsa nostrum, nulla impedit!</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quia dignissimos sit, qui rerum, quasi quos, sunt maxime veritatis quis eaque. Hic autem possimus at voluptatem? Optio eaque iusto, quasi doloremque dolore architecto ex eum minus placeat. Illum commodi officiis necessitatibus ex nostrum recusandae quos aliquid blanditiis eius quibusdam eligendi tempore, dignissimos vel voluptate? Deleniti consequatur neque libero, esse voluptate illo corporis expedita hic ea blanditiis error nisi culpa incidunt illum veniam exercitationem dicta in minus delectus quae labore voluptates amet inventore voluptatibus. Deserunt magni, soluta consequuntur reiciendis eos similique architecto velit animi pariatur deleniti dolor, quibusdam nostrum illo placeat.</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt perspiciatis quae officia molestiae quod nobis consectetur possimus ipsa minima ipsum, animi, harum quos fugit laboriosam eveniet obcaecati nesciunt. Ipsum, quia?</p>
         </div>
+      </section>
+    </div>
 
+    <div class="wrapper">
+      <section class="commentSection" id="commentSection">
         <div class="comments">
+          <div class="commentTitle">
+            <h6>Comments:</h6>
+          </div>
           <div class="comment">
             <div class="commentImg">
               <img src="../planted-final-assets/planted-final-assets/profile-image.jpg" alt="profile image of commenter">
             </div>
-            <p>Tuesday October 9th, 2018 by Jeremy</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, non doloribus ullam tempora error aspernatur quis nisi adipisci quia eum expedita in nihil explicabo. Ex placeat voluptate voluptas ab inventore?</p>
+            <div class="commentText">
+              <p class="date">Tuesday October 9th, 2018 by Jeremy</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, non doloribus ullam tempora error aspernatur quis nisi adipisci quia eum expedita in nihil explicabo. Ex placeat voluptate voluptas ab inventore?</p>
+            </div>
           </div>
 
           <div class="comment">
             <div class="commentImg">
               <img src="../planted-final-assets/planted-final-assets/profile-image-2.jpg" alt="profile image of commenter">
             </div>
-            <p>Wednesday October 10th, 2018 by Julia</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore veritatis quas ea harum itaque, sunt tempora cupiditate aliquid ipsam sed, maxime distinctio repellat magnam facilis impedit commodi vel eum. Possimus.</p>
+            <div class="commentText">
+              <p class="date">Wednesday October 10th, 2018 by Julia</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore veritatis quas ea harum itaque, sunt tempora cupiditate aliquid ipsam sed, maxime distinctio repellat magnam facilis impedit commodi vel eum. Possimus.</p>
+            </div>
           </div>
         </div>
 
@@ -100,11 +119,17 @@
               <input type="text" name="" id="" placeholder="Name" class="name">
               <input type="email" placeholder="Email address" class="email">
             </div>
-            <textarea name="message" id="" cols="30" rows="5" placeholder="Message"></textarea>
-            <button>Submit</button>
+            <textarea name="message" id="" cols="30" rows="5" placeholder="Comment" class="message"></textarea>
+            <button>Post Comment</button>
           </form>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
   </main>
+
+    <footer>
+      <div class="wrapper">
+        <p>Copyright © 2018 HackerYou</p>
+      </div>
+    </footer>
 </body>

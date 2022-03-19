@@ -1,0 +1,178 @@
+.blogPage {
+  background-image: url(../planted-final-assets/planted-final-assets/blog-header-1.jpg);
+  background-size: cover;
+
+  h2 {
+    color: $secondary;
+    margin: 25px 0;
+  }
+
+  .zIndexH1 {
+    position: absolute;
+    bottom: 100px;
+  }
+}
+
+.blogMain {
+  background-color: $backgroundColor;
+}
+
+.blogImg {
+  .imgContainer {
+    max-width: 60%;
+    top: 60vh;
+
+    img {
+      max-width: 100%;
+      box-shadow: -18px 18px 0 -5px $secondary;
+    }
+  }
+}
+
+.flexWrapper {
+  display: flex;
+  max-width: 1100px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.sidebarSection {
+  width: 35%;
+  
+  .sidebar {
+    background-color: $solidWhite;
+    width: 77.5%;
+    margin-top: 150px;
+
+    .sidebarSpacing {
+      padding-left: 25px;
+    }
+
+    .sidebarTitle {
+      font-family: $headingFont;
+      padding: 25px 0;
+      font-weight: bold;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    ul {
+      margin-left: 25px;
+    }
+
+    .sidebarImg {
+      position: relative;
+      right: 80%;
+      bottom: 30px;
+      
+    }
+  }
+}
+
+.sidebarText {
+  span {
+  color: $blogGreen;
+  font-weight: bold;
+  font-style: italic;
+}
+}
+
+.sidebarList {
+  padding-bottom: 25px;
+
+  li {
+    color: $buttons;
+
+    span {
+    color: $primaryText;
+    }
+  }
+}
+
+.blogPost {
+  margin-top: 400px;
+
+  h4 {
+    margin: 0;
+  }
+}
+
+.blogPostSection {
+  padding: 0 0 30px 50px;
+  border-left: 5px solid $secondary;
+  border-bottom: 5px solid $secondary;
+}
+
+.commentSection {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+  .comments,
+  .formContainer {
+    width: 65%;
+    align-items: flex-end;
+    flex-wrap: wrap;
+  }
+
+  .formContainer {
+    margin-bottom: 100px;
+  }
+
+  .contactForm {
+    padding: 0;
+
+    .name,
+    .email,
+    .message {
+      background-color: $backgroundColor;
+    }
+  }
+}
+
+.comments {
+  padding-left: 50px;
+
+  p {
+    margin-top: 0;
+  }
+}
+
+.comment {
+  display: flex;
+  padding-bottom: 50px;
+
+  .commentImg {
+    margin: 5px 15px 0 0;
+  }
+}
+
+.date {
+  font-family: $headingFont;
+  color: $blogGreen;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.commentTitle {
+  h6 {
+    margin: 50px 0;
+  }
+}
+
+.author {
+  color: $blogGreen;
+  font-style: italic;
+  margin: 0 0 50px 0;
+
+  span {
+    font-weight: bold;
+  }
+}
+
+.navBackground {
+  background-color: black;
+  
+}
