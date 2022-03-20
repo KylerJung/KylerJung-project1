@@ -1,0 +1,260 @@
+@media (max-width: 1100px) {
+  h1 {
+    padding-left: 100px;
+  }
+
+  .uniquePlantsImg {
+    top: 150px;
+  }
+
+  .blogImg {
+    .imgContainer {
+      position: static;
+      max-width: 100%;
+    }
+  }
+
+  .blogPost {
+    margin-top: 50px;
+  }
+}
+
+// major breakpoint
+
+@media (max-width: 960px) {
+  h1 {
+    padding-left: 0;
+  }
+  
+  .upcomingWorkshop {
+    flex-direction: column;
+  }
+
+
+  .uniquePlants {
+    flex-direction: column-reverse;
+  }
+
+  .upcomingWorkshop,
+  .uniquePlants {
+    align-items: center;
+
+    .upcomingWorkshopText,
+    .uniquePlantsText {
+      position: static;
+      text-align: center;
+    }
+
+    .upcomingWorkshopText {
+      padding-bottom: 100px;
+    }
+  }
+
+  .upcomingWorkshopImg {
+    padding-top: 50px;
+  }
+
+  .uniquePlantsImg,
+  .upcomingWorkshopImg {
+    position: static;
+  }
+
+  .founder .wrapper {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .founderText {
+    max-width: 100%;
+    padding-top: 50px;
+  }
+
+  .sidebarSection {
+    .sidebar {
+      .sidebarImg {
+        right: 100%;
+      }
+    }
+  }
+
+  .contactArea {
+    .wrapper {
+      flex-direction: column-reverse;
+      padding: 50px 0;
+      align-items: center;
+    }
+
+    .formContainer {
+      position: static;
+      width: 75%;
+    }
+
+    .address {
+      padding-top: 50px;
+      text-align: center;
+    }
+  }
+}
+
+@media (max-width: 860px) {
+  h1 {
+    font-size: 6rem;
+  }
+
+  .imgContainer {
+    
+
+    img {
+      object-fit: contain;
+    }
+  }
+
+    .sidebarSection {
+    .sidebar {
+      .sidebarImg {
+        right: 160%;
+      }
+    }
+  }
+}
+
+@media (max-width: 750px) {
+  .sidebarSection {
+    .sidebar {
+      width: 100%;
+
+      .sidebarImg {
+        visibility: collapse;
+      }
+    }
+  }
+
+  .sidebarSpacing {
+    position: relative;
+    top: -400px;
+  }
+
+  .contactArea {
+    .formContainer {
+      width: 100%;
+    }
+  }
+}
+
+// major breakpoint
+
+@media (max-width: 680px) {
+  h1 {
+    font-size: 4rem;
+    margin-top: 50px;
+
+  }
+
+  nav ul {
+    flex-direction: column;
+    
+    li {
+      padding: 15px 0;
+
+      a {
+        padding: 15px 100px;
+      }
+
+      p {
+        padding-right: 0;
+      }
+    }
+
+  }
+  
+  .imgContainer {
+    visibility: hidden;
+  }
+
+  .upcomingWorkshopImg,
+  .uniquePlantsImg {
+    img {
+      max-width: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .row1,
+  .row2 {
+    flex-direction: column;
+
+    .community,
+    .getInTouch {
+      padding-left: 0;
+    }
+  }
+
+  .galleryContainer ul {
+    flex-direction: column;
+    align-items: center;
+
+    li {
+      padding: 10px 0;
+      text-align: center;
+    }
+  }
+
+  .blogImg {
+    .imgContainer {
+      visibility: visible;
+    }
+  }
+
+  .sidebarSection {
+    width: 0%;
+  }
+
+  .sidebar {
+    visibility: collapse;
+  }
+
+  .blogPostSection {
+    width: 100%;
+    border: none;
+    padding: 0 0 30px 0;
+  }
+
+  .commentSection {
+    .comments,
+    .formContainer {
+      width: 100%;
+      padding-left: 0;
+    }
+  }
+}
+
+// major breakpoint
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  // * {
+  //   outline: 1px solid red !important;
+  // }
+
+  .formDiv {
+    flex-direction: column;
+
+    .name,
+    .email {
+      width: 100%;
+    }
+  }
+
+  .commentImg img {
+    visibility: collapse;
+    width: 0;
+  }
+
+  .contactForm {
+    padding: 50px 10px;
+  }
+}
+

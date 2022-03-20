@@ -376,7 +376,7 @@ h1 span {
 
 .upcomingWorkshopImg {
   position: relative;
-  right: 20%;
+  right: calc(10% - 10px);
   bottom: 50px;
 }
 .upcomingWorkshopImg img {
@@ -394,8 +394,8 @@ h1 span {
 
 .uniquePlantsImg {
   position: relative;
-  left: 20%;
-  top: 50px;
+  left: calc(10% - 10px);
+  top: 100px;
 }
 .uniquePlantsImg img {
   -webkit-box-shadow: -20px 20px 0 -5px #F8E71C;
@@ -406,6 +406,7 @@ h1 span {
   text-align: right;
   position: relative;
   left: 40px;
+  padding-bottom: 50px;
 }
 
 .widget {
@@ -413,7 +414,7 @@ h1 span {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 100px 0;
+  padding: 100px 0 100px 75px;
 }
 .widget li {
   list-style: none;
@@ -476,7 +477,7 @@ h1 span {
   background-color: #F0EFED;
 }
 .imgSection img {
-  width: 100vw;
+  max-width: 100%;
 }
 
 .gallery {
@@ -514,7 +515,7 @@ footer p {
 }
 .contact h2 {
   color: #F8E71C;
-  margin: 25px 0;
+  margin: 50px 0;
 }
 .contact .zIndexH1 {
   position: absolute;
@@ -616,8 +617,9 @@ textarea,
 }
 
 .blogImg .imgContainer {
+  position: absolute;
   max-width: 60%;
-  top: 60vh;
+  top: 400px;
 }
 .blogImg .imgContainer img {
   max-width: 100%;
@@ -768,4 +770,246 @@ textarea,
 .sidebar {
   position: sticky;
   top: 0;
+}
+
+@media (max-width: 1100px) {
+  h1 {
+    padding-left: 100px;
+  }
+
+  .uniquePlantsImg {
+    top: 150px;
+  }
+
+  .blogImg .imgContainer {
+    position: static;
+    max-width: 100%;
+  }
+
+  .blogPost {
+    margin-top: 50px;
+  }
+}
+@media (max-width: 960px) {
+  h1 {
+    padding-left: 0;
+  }
+
+  .upcomingWorkshop {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .uniquePlants {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+
+  .upcomingWorkshop,
+.uniquePlants {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .upcomingWorkshop .upcomingWorkshopText,
+.upcomingWorkshop .uniquePlantsText,
+.uniquePlants .upcomingWorkshopText,
+.uniquePlants .uniquePlantsText {
+    position: static;
+    text-align: center;
+  }
+  .upcomingWorkshop .upcomingWorkshopText,
+.uniquePlants .upcomingWorkshopText {
+    padding-bottom: 100px;
+  }
+
+  .upcomingWorkshopImg {
+    padding-top: 50px;
+  }
+
+  .uniquePlantsImg,
+.upcomingWorkshopImg {
+    position: static;
+  }
+
+  .founder .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+
+  .founderText {
+    max-width: 100%;
+    padding-top: 50px;
+  }
+
+  .sidebarSection .sidebar .sidebarImg {
+    right: 100%;
+  }
+
+  .contactArea .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    padding: 50px 0;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .contactArea .formContainer {
+    position: static;
+    width: 75%;
+  }
+  .contactArea .address {
+    padding-top: 50px;
+    text-align: center;
+  }
+}
+@media (max-width: 860px) {
+  h1 {
+    font-size: 6rem;
+  }
+
+  .imgContainer img {
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+
+  .sidebarSection .sidebar .sidebarImg {
+    right: 160%;
+  }
+}
+@media (max-width: 750px) {
+  .sidebarSection .sidebar {
+    width: 100%;
+  }
+  .sidebarSection .sidebar .sidebarImg {
+    visibility: collapse;
+  }
+
+  .sidebarSpacing {
+    position: relative;
+    top: -400px;
+  }
+
+  .contactArea .formContainer {
+    width: 100%;
+  }
+}
+@media (max-width: 680px) {
+  h1 {
+    font-size: 4rem;
+    margin-top: 50px;
+  }
+
+  nav ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  nav ul li {
+    padding: 15px 0;
+  }
+  nav ul li a {
+    padding: 15px 100px;
+  }
+  nav ul li p {
+    padding-right: 0;
+  }
+
+  .imgContainer {
+    visibility: hidden;
+  }
+
+  .upcomingWorkshopImg img,
+.uniquePlantsImg img {
+    max-width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+
+  .row1,
+.row2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .row1 .community,
+.row1 .getInTouch,
+.row2 .community,
+.row2 .getInTouch {
+    padding-left: 0;
+  }
+
+  .galleryContainer ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .galleryContainer ul li {
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  .blogImg .imgContainer {
+    visibility: visible;
+  }
+
+  .sidebarSection {
+    width: 0%;
+  }
+
+  .sidebar {
+    visibility: collapse;
+  }
+
+  .blogPostSection {
+    width: 100%;
+    border: none;
+    padding: 0 0 30px 0;
+  }
+
+  .commentSection .comments,
+.commentSection .formContainer {
+    width: 100%;
+    padding-left: 0;
+  }
+}
+@media (max-width: 480px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  .formDiv {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .formDiv .name,
+.formDiv .email {
+    width: 100%;
+  }
+
+  .commentImg img {
+    visibility: collapse;
+    width: 0;
+  }
+
+  .contactForm {
+    padding: 50px 10px;
+  }
 }

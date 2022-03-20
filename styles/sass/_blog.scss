@@ -19,8 +19,9 @@
 
 .blogImg {
   .imgContainer {
+    position: absolute;
     max-width: 60%;
-    top: 60vh;
+    top: 400px;
 
     img {
       max-width: 100%;
@@ -93,6 +94,7 @@
 
 .blogPost {
   margin-top: 400px;
+  
 
   h4 {
     margin: 0;
