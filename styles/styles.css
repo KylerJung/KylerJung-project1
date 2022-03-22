@@ -376,7 +376,7 @@ h1 span {
 
 .upcomingWorkshopImg {
   position: relative;
-  right: calc(10% - 10px);
+  right: calc(20% - 10px);
   bottom: 50px;
 }
 .upcomingWorkshopImg img {
@@ -394,7 +394,7 @@ h1 span {
 
 .uniquePlantsImg {
   position: relative;
-  left: calc(10% - 10px);
+  left: calc(20% - 10px);
   top: 100px;
 }
 .uniquePlantsImg img {
