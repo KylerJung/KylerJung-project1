@@ -146,8 +146,13 @@
 @media (max-width: 680px) {
   h1 {
     font-size: 4rem;
-    margin-top: 50px;
+    // padding-top: 50px;
+    // margin-top: 0;
 
+  }
+
+  nav {
+    display: block;
   }
 
   nav ul {
@@ -230,6 +235,26 @@
   .blogPage,
   .blogMain {
     overflow-x: hidden;
+  }
+
+  nav .mobileMenu {
+    display: block;
+    text-align: end;
+  }
+
+  .navUl{
+    position: fixed;
+    left: -1000%;
+    top: 50px;
+    width: 100%;
+    align-items: center;
+    background-color: black;
+    z-index: 11;
+  }
+
+  .navUl.click {
+    left: 0;
+    
   }
 }
 
